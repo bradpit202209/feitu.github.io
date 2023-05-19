@@ -59,7 +59,7 @@ window.onload = function () {
     var logoElem = document.createElement('div');
     logoElem.setAttribute('class', 'brand');
     logoElem.setAttribute('id', 'logo');
-    logoElem.innerHTML = '九 <span>色</span><span class="flag">视频</span>'
+    logoElem.innerHTML = '飞兔<span class="flag">影视</span>'
     mainElem.appendChild(logoElem);
 
     // newest urls
