@@ -2,7 +2,7 @@ var emails = [
     'contact@feitu.tv'
 ];
 var newestUrls = [
-    'https://www.feitu.tv'
+    'https://tv.feitu1.com/'
 ];
 var otherUrls = [
     'https://feitutv.github.io'
