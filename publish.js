@@ -2,6 +2,7 @@ var emails = [
     'contact@feitu.tv'
 ];
 var newestUrls = [
+    'https://gov.feitu5.com',
     'https://fewef.feitu4.com',
     'https://qwer.feitu3.com',
     'https://tvv.feitu2.com',
@@ -31,7 +32,7 @@ function createFieldElem(option) {
     var fieldClass = ['field', classStr].join(' ');
     fieldElem.setAttribute('class', fieldClass);
 
-    var titleElem = document.createElement('h4');
+    var titleElem = document.createElement('h2');
     titleElem.setAttribute('class', 'title');
     titleElem.innerHTML = title;
     fieldElem.appendChild(titleElem);
@@ -62,11 +63,11 @@ window.onload = function () {
     var logoElem = document.createElement('div');
     logoElem.setAttribute('class', 'brand');
     logoElem.setAttribute('id', 'logo');
-    logoElem.innerHTML = '飞兔<span class="flag">影视</span>'
+    logoElem.innerHTML = '<h1 class="flag">飞兔视频</h1>'
     mainElem.appendChild(logoElem);
 
     // newest urls
-    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '请使用https://协议访问飞兔影视'});
+    var newestFieldElem = createFieldElem({title: '飞兔视频最新地址', items: newestUrls, text: '请使用https://协议访问飞兔影视'});
     mainElem.appendChild(newestFieldElem);
 
     // other urls
@@ -78,7 +79,7 @@ window.onload = function () {
     mainElem.appendChild(mailFieldElem);
 
     // forever urls
-    var foreverFieldElem = createFieldElem({title: '永久地址', items: foreverUrls});
+    var foreverFieldElem = createFieldElem({title: '飞兔视频永久地址', items: foreverUrls});
     mainElem.appendChild(foreverFieldElem);
 
     // Description
