@@ -67,7 +67,7 @@ window.onload = function () {
     mainElem.appendChild(logoElem);
 
     // newest urls
-    var newestFieldElem = createFieldElem({title: '飞兔视频最新地址', items: newestUrls, text: '请使用https://协议访问飞兔影视'});
+    var newestFieldElem = createFieldElem({title: '飞兔视频最新地址', items: newestUrls, text: '请使用https://协议访问飞兔视频'});
     mainElem.appendChild(newestFieldElem);
 
     // other urls
