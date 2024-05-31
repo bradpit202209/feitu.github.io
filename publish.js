@@ -2,7 +2,7 @@ var emails = [
     'contact@feitu.tv'
 ];
 var newestUrls = [
-    'https://kriv.ft900v.com'
+    'https://www.feitu.tv'
 ];
 var otherUrls = [
     'https://feitutv.github.io'
